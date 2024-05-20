@@ -20,5 +20,7 @@ resource "aws_security_group" "allow_tls" {
         
     }
 
-    tags = var.tags
+    tags = {
+        Name = "SGG"
+    }
 }
