@@ -7,7 +7,7 @@
       name: nginx
       state: present
   - name: start & enable
-    ansible.bultin.service:
+    ansible.builtin.service:
       name: nginx
       state: started
       enabled: yes
